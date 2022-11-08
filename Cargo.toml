@@ -1,0 +1,6 @@
+[workspace]
+resolver = "2"
+members = ["bb2"]
+
+[profile.release]
+lto = true
